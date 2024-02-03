@@ -1,0 +1,43 @@
+::ng-deep .p-card .p-card-body {
+  padding: 0.2rem;
+  background-color: rgba(230, 230, 7, 0.404) ;
+}
+
+.container-tabela {
+  margin-top: 1rem;
+  width: 30vw;
+  margin-bottom: 2rem;
+
+  .header-tabela {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .lista-tarefas {
+
+    margin-top: 0.5rem;
+
+    .item-tarefa {
+
+
+      .item-card {
+        background-color: rgba(235, 235, 9, 0.356) !important;
+
+      }
+
+      .item-descript {
+        margin-top: 0.5rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+
+}

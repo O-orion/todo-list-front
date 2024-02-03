@@ -1,0 +1,16 @@
+<section class="container-tabela">
+  <div class="header-tabela">
+    <p>Minhas Tarefas</p>
+    <p-button>Nova Tarefa</p-button>
+  </div>
+  <div class="lista-tarefas" *ngFor="let tarefa of tarefas">
+    <div class="item-tarefa"  >
+      <p-card class="item-card">
+        <div class="item-descript" >
+          <p>Tarefa: {{ tarefa.name }}</p>
+          <p-button  >editar</p-button>
+        </div>
+      </p-card>
+    </div>
+  </div>
+</section>
